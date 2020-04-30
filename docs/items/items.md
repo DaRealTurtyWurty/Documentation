@@ -18,6 +18,7 @@ Basic items that need no special functionality (think sticks or sugar) don't nee
 |      `setNoRepair`     | Makes this item impossible to repair, even if it is damageable. |
 |     `containerItem`    | Sets this item's container item, the way that lava buckets give you back the empty bucket when they are used. |
 |      `addToolType`     | Adds a pair of `ToolType` (`SHOVEL`, `AXE`) and harvest level (`0` for Wood/Gold, `1` for Stone, `2` for Iron, `3` for Gold). |
+|         `food`         | Makes this item a food item. |
 
 The above methods are chainable meaning they `return this` to facilitate calling them in series.
 
